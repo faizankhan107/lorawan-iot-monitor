@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#f5f7f8"/>
+  <style>
+    .t{font-family:Arial,Helvetica,sans-serif;fill:#12212b}
+    .m{font-family:Arial,Helvetica,sans-serif;fill:#647783}
+    .card{fill:#fff;stroke:#dbe3e8;stroke-width:1}
+    .line{fill:none;stroke:#2b7a9b;stroke-width:3}
+  </style>
+  <text x="110" y="58" class="t" font-size="30" font-weight="700">LoRaWAN Remote Sensor Monitor</text>
+  <text x="110" y="88" class="m" font-size="16">MQTT uplinks · sensor readings · signal quality</text>
+  <text x="1035" y="66" class="m" font-size="14">Updated 11:29:57 PM</text>
+
+  <rect x="110" y="125" rx="12" ry="12" width="320" height="190" class="card"/>
+  <text x="130" y="155" class="t" font-size="18" font-weight="700">64d916766eb4822b</text>
+  <rect x="352" y="138" rx="12" ry="12" width="58" height="25" fill="#dff5e8"/>
+  <text x="366" y="156" font-family="Arial" font-size="12" fill="#18854a">online</text>
+  <text x="130" y="192" class="m" font-size="14">Temperature</text><text x="130" y="220" class="t" font-size="24" font-weight="700">2.6 °C</text>
+  <text x="270" y="192" class="m" font-size="14">Humidity</text><text x="270" y="220" class="t" font-size="24" font-weight="700">7.7 %</text>
+  <text x="130" y="252" class="m" font-size="14">RSSI</text><text x="130" y="280" class="t" font-size="22" font-weight="700">50 dBm</text>
+  <text x="270" y="252" class="m" font-size="14">SNR</text><text x="270" y="280" class="t" font-size="22" font-weight="700">5.5 dB</text>
+
+  <rect x="450" y="125" rx="12" ry="12" width="320" height="190" class="card"/>
+  <text x="470" y="155" class="t" font-size="18" font-weight="700">841a381a8a4e0c3e</text>
+  <rect x="692" y="138" rx="12" ry="12" width="58" height="25" fill="#fff1d6"/>
+  <text x="708" y="156" font-family="Arial" font-size="12" fill="#a86600">stale</text>
+  <text x="470" y="192" class="m" font-size="14">Temperature</text><text x="470" y="220" class="t" font-size="24" font-weight="700">2.6 °C</text>
+  <text x="610" y="192" class="m" font-size="14">Humidity</text><text x="610" y="220" class="t" font-size="24" font-weight="700">7.7 %</text>
+  <text x="470" y="252" class="m" font-size="14">RSSI</text><text x="470" y="280" class="t" font-size="22" font-weight="700">50 dBm</text>
+  <text x="610" y="252" class="m" font-size="14">SNR</text><text x="610" y="280" class="t" font-size="22" font-weight="700">5.5 dB</text>
+
+  <rect x="790" y="125" rx="12" ry="12" width="320" height="190" class="card"/>
+  <text x="810" y="155" class="t" font-size="18" font-weight="700">Demo Sensor 01</text>
+  <rect x="1032" y="138" rx="12" ry="12" width="58" height="25" fill="#fff1d6"/>
+  <text x="1048" y="156" font-family="Arial" font-size="12" fill="#a86600">stale</text>
+  <text x="810" y="192" class="m" font-size="14">Temperature</text><text x="810" y="220" class="t" font-size="24" font-weight="700">24.6 °C</text>
+  <text x="950" y="192" class="m" font-size="14">Humidity</text><text x="950" y="220" class="t" font-size="24" font-weight="700">55.2 %</text>
+  <text x="810" y="252" class="m" font-size="14">RSSI</text><text x="810" y="280" class="t" font-size="22" font-weight="700">-71 dBm</text>
+  <text x="950" y="252" class="m" font-size="14">SNR</text><text x="950" y="280" class="t" font-size="22" font-weight="700">7.5 dB</text>
+
+  <rect x="110" y="345" rx="12" ry="12" width="1000" height="325" class="card"/>
+  <text x="130" y="382" class="t" font-size="23" font-weight="700">64d916766eb4822b history</text>
+  <text x="130" y="410" class="m" font-size="14">9 stored readings · DevEUI 64d916766eb4822b</text>
+
+  <rect x="130" y="438" rx="8" width="455" height="100" class="card"/>
+  <text x="145" y="465" class="t" font-size="16" font-weight="700">Temperature (°C)</text>
+  <path d="M155 505 L560 505" class="line"/>
+  <rect x="610" y="438" rx="8" width="455" height="100" class="card"/>
+  <text x="625" y="465" class="t" font-size="16" font-weight="700">Humidity (%)</text>
+  <path d="M635 505 L1040 505" class="line"/>
+
+  <rect x="130" y="555" rx="8" width="455" height="95" class="card"/>
+  <text x="145" y="582" class="t" font-size="16" font-weight="700">RSSI (dBm)</text>
+  <path d="M155 620 L560 620" class="line"/>
+  <rect x="610" y="555" rx="8" width="455" height="95" class="card"/>
+  <text x="625" y="582" class="t" font-size="16" font-weight="700">SNR (dB)</text>
+  <path d="M635 620 L1040 620" class="line"/>
+</svg>
