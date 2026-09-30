@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.venv/
+venv/
+.env
+.env.*
+
+# Local telemetry / runtime data
+*.db
+*.db-shm
+*.db-wal
+telemetry.db
+chirpstack-telemetry.db
+
+# Test / tooling caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+
+# Secrets / local ChirpStack simulator config
+chirpstack-simulator.toml
+*.key
+*.pem
