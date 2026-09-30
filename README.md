@@ -56,10 +56,9 @@ Application MQTT event
 
 The dashboard shows the latest device telemetry and historical charts for temperature, humidity, RSSI, SNR, and last-seen / online / stale status.
 
-Example verification screenshots are included in this repository:
+![Running LoRaWAN Remote Sensor Monitor](docs/dashboard-running.jpg)
 
-- `verification-online.png`
-- `verification-stale.png`
+*Running project dashboard during ChirpStack-simulated LoRaWAN validation.*
 
 ## Project structure
 
