@@ -1,0 +1,31 @@
+services:
+  broker:
+    image: eclipse-mosquitto:2
+    volumes:
+      - ./mosquitto.conf:/mosquitto/config/mosquitto.conf:ro
+    ports:
+      - "127.0.0.1:1883:1883"
+  monitor:
+    build: .
+    environment:
+      MQTT_HOST: broker
+      DB_PATH: /data/telemetry.db
+      STALE_AFTER_SECONDS: 90
+    volumes:
+      - monitor-data:/data
+    ports:
+      - "127.0.0.1:8000:8000"
+    depends_on:
+      - broker
+  simulator:
+    build: .
+    command: ["python", "-m", "simulator.sensor_simulator"]
+    environment:
+      MQTT_HOST: broker
+      SIM_INTERVAL_SECONDS: 10
+    depends_on:
+      - broker
+    profiles:
+      - demo
+volumes:
+  monitor-data:
